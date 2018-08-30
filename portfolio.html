@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Document responsive across devices. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Document's character set. -->
+    <meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+
+	<div class="header-container">
+		<header>My Name is ... Pangjha </header>
+		
+
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="main-container">
+		<section id="project-portfolio">
+			<h2>Portfolio</h2>
+
+			<!-- Using single placeholder image for now. -->
+			<ul class="project">
+				<li class="box"><div><img class="project" src="assets/images/me6.jpg" height="300" width="150" alt="Project 1"><span class="project-title">Miss angle of Buu</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/me4.jpg" height="200" width="150" alt="Project 1"><span class="project-title">งานราตรีฟ้าแดง</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/me5.jpg" height="200" width="150" alt="Project 1"><span class="project-title">งานผ้าไหมไทยแห่งชาติ</span></div></li>
+			<!--	<li class="box"><div><img class="project" src="assets/images/me8.jpg" height="190" width="150" alt="Project 1"><span class="project-title">เป็นประธานสี</span></div></li>-->
+			</ul>
+			
+    	</section>
+    	<section id="portVideo"> 
+			<h3>my Video</h3>
+			<video width="320" height="240" controls autoplay loop>
+				<source src="assets/images/videoMe1.mp4" type="video/mp4">
+				<source src="assets/images/videoMe1.ogg" type="video/ogg">
+			 
+			  </video>
+		</section>
+    	<section id="social-links">
+    		<h3>Connect with Me</h3>
+			<ul>
+				<li><a href="https://facebook.com/bunnywcr" target="_blank"><img class="icon" src="assets/images/facebook.png" alt="GitHub Profile"></a></li>
+				<li onclick="numcall()"><img class="icon" src="assets/images/call.png" alt="GitHub Profile"></a></li>
+      		</ul>
+		</section>
+		<script>
+			function numcall() {
+				  alert("You can call me by 0928025674");
+				}
+			</script>
+	</div>
+
+	<!-- Don't remove-->
+	<footer>&#64; Copyright 2017 Meggin Kearney Thank you for education.</footer>
+</body>
+</html>
