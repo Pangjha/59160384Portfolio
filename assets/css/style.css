@@ -150,7 +150,7 @@ footer {
 	overflow: auto;
 	margin: 0 auto;
 	background-image: url("../images/wall.gif");
-	height: 600px;
+
 	width: 100%;
 	border-bottom: 5px solid #f9b5fb;
 }
@@ -229,6 +229,7 @@ footer {
 }
 
 #main-bio {
+	box-sizing: border-box;
 	height: auto;
 	padding: 20px;
 }
